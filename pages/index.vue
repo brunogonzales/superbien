@@ -13,7 +13,7 @@ export default {
 		}
 	},
 	async fetch(){
-		const response = await this.$nuxt.context.$axios.get("https://api.thecatapi.com/v1/images/search")
+		const response = await this.$nuxt.context.$axios.get(`https://api.thecatapi.com/v1/images/search?api_key=${process.env.CATS_API_TOKEN}`)
 		this.image = response.data[0]
 	}
 
