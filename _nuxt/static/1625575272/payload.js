@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/", (function(a){return {data:[{}],fetch:{"0":{image:{breeds:[],id:"qX-X6sFGF",url:"https:\u002F\u002Fcdn2.thecatapi.com\u002Fimages\u002FqX-X6sFGF.jpg",width:a,height:a}}},mutations:void 0}}(1200)));
